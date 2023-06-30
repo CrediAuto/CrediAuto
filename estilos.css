@@ -1,0 +1,727 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'calibri light';
+}
+
+#linea{  
+    width: 100%;
+    height: 5px;
+    background: #E76A1B;
+}
+
+#header{
+   width: 100%;
+   height: 90px;
+   background: #E76A1B;
+} 
+
+#header #centro1{
+    width: 800px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    margin: auto;
+}
+
+#header #centro1 #logo{
+   width: 200px; border: 0px solid;
+   float: left;
+}
+
+#header #centro1 #logo h2,p{
+    color: #ffffff;
+}
+
+#header #centro1 #logo p{
+    margin-top: -20px;
+}
+
+/*----------Menu--------*/
+
+#header #menu{
+    width: 580px;
+    height: auto; 
+    overflow: hidden;
+    border: 0px solid; 
+    float: right;
+    margin-top: 40px;
+    text-align: right;
+}
+
+#header #menu ul li{
+    display: inline-block;
+}
+
+#header #menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 7px 10px;
+    margin: 0px 4px;
+}
+
+#header #menu ul li a:hover{
+    background: #000000;
+}
+
+/*----------Presentación-----------*/
+
+#presentacion{
+    width: 100%;
+    height: auto;  overflow: hidden;
+    background: #ffffff;
+}
+
+#presentacion #centro2{
+    width: 800px;
+    margin: auto;
+}
+
+#presentacion #centro2 #izquierda{
+    width: 290px;
+    border: 0px solid;
+    float: left;
+}
+
+#presentacion #centro2 #izquierda h2{
+    color: #0a0a0a;
+    font-weight: lighter;
+}
+
+
+.descripcion-pres{
+    color: #000000;
+    text-align: left;
+}
+
+.boton{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.boton:hover{
+    padding: 4px 10px;
+    background: #c1c7ca;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ff0303; border: 0px;
+    margin-top: -15px;
+}
+
+#presentacion #centro2 #derecha {
+    width: 490px;
+    height: auto;  float: right;
+}
+
+.img{
+    width: 250px;
+    height: 200px;
+    border: 3px solid #ffffff;
+    margin: 20px 0px;
+    float: right;
+}
+
+/*-----------Contenido----------*/
+#contenido{
+    background: #ffffff;
+    width: 100%;
+    height: auto; overflow: hidden;
+}
+
+#contenido-paginas{
+    background: #ffffff;
+    padding: 0px 0px 20px 0px;
+    
+}
+
+#contenido #centro3{
+    width: 800px;
+    margin: auto; 
+    border: 0px solid; 
+    height: auto; 
+    overflow: hidden;
+}
+
+#contenido #centro3 #izquierda{
+    width: 390px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    float: left;
+}
+
+#contenido #centro3 #izquierda h3{
+    color: #0e615e;
+}
+
+#contenido #centro3 #izquierda .descripcion{
+    text-align: left; color: #6e6e6e;
+}
+
+.img-servicios{
+    width: 189px; height: 189px; display: inline-block;
+    padding: 1px; border: 1px solid #ccc;
+    
+}
+
+/*-----------Contenidos de la parte derecha-------------*/
+#contenido #centro3 #derecha{
+    width: 390px;
+    height: auto; overflow: hidden;
+    border: 0px solid;
+    float: right;
+}
+
+#contenido #centro3 #derecha h3{
+    text-align: left;
+    font: 22px;
+    color: #0b615e;
+}
+
+#contenido #centro3 #derecha article{
+    width: 100%;
+    height: auto;  overflow: hidden;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+#contenido #centro3 #derecha article h4{
+    text-align: left; font-size: 15px;
+}
+
+#contenido #centro3 #derecha article p{
+    color: #6e6e6e; text-align: left;
+    margin-top: -22px;
+}
+
+.leer-mas{
+    padding: 4px 10px;
+    background: #086a87;
+    text-decoration: none;
+    float: left;
+    border-radius: 5px;
+    color: #ffffff; border: 0px;
+    margin-top: -15px;
+}
+
+/*-------------pie---------*/
+#pie{
+    width: 100%;
+    height: 90px;
+    background: #E76A1B;
+}
+
+#pie #centro-pie{
+    width: 800px;
+    height: auto;  overflow: hidden;
+    margin: auto;
+}
+
+.email{
+    color: #ffffff; text-decoration: none;    
+}
+
+.email:hover{
+    text-decoration: underline;
+}
+
+/*----------------Pagina de Nosotros---------*/
+
+#centro3{
+    width: 800px;
+    margin: auto; 
+    border: 0px solid; 
+    height: auto; 
+    overflow: hidden;
+    text-align: center;
+}
+
+.encabezados{
+    font-family: "Arial black";
+    font-size: 50px; 
+}
+.descripcion-pagina1{
+    font-family: "";
+    font-size: 20px;
+    color: #000000;
+}
+
+.t1{
+    color: #2E2E2E;
+}
+
+.t2{
+    color: #0489b1;
+}
+
+.descripcion-pagina{
+    color: #000000;
+}
+
+.texto-nosotros{
+    text-align: left;
+    
+}
+
+hr{
+    border-top: 1px;
+}
+
+.img-nosotros{
+    float: left;
+    margin-right: 800px;
+    width: 800px;
+}
+
+#filosofia{
+    height: auto; overflow: hidden;
+}
+
+#mision, #vision, #valores{
+    width: 250px;
+    height: auto;  overflow: hidden;
+    border: 0px solid #ccc;
+    display: inline-block;
+    border-right: 5px;
+    padding: 4px;
+}
+
+.img-filosofia{
+    width: 200px;
+    float: auto;    
+}
+
+#vision{
+    margin-right: 1px;
+    margin-left: 3px;
+}
+
+/*----------------Pagina de Servicios-----------*/
+
+.servicios{
+    font-family: "Arial black";
+    font-size: 15px;
+}
+
+.uno{
+    color: #2E2E2E;
+}
+
+.dos{
+    color: #e76108;
+}
+
+#disenio{
+    width: 260px;
+    height: 300px;
+    border: 1px solid #ccc;
+    float: left;
+    padding: 2px;
+    font-family: "Arial black";
+
+    }
+
+.img-servi1{
+
+    width: 250px;
+    height: 200px;
+    border-radius: 1%;
+    }
+
+    .img-servi2{
+
+        width: 250px;
+        height: 200px;
+        border-radius: 1%;
+        }
+
+        .img-servi3{
+
+            width: 200px;
+            height: 200px;
+            border-radius: 1%;
+            }
+
+    #pies{
+        width: 0%;
+        height: 0px;
+        background: #E76A1B;
+    }
+    
+    #pie #centro-pies{
+        width: 800px;
+        height: left;  overflow: hidden;
+        margin: left;
+    }
+    
+    .email{
+        color: #ffffff; text-decoration: none;    
+    }
+    
+    .email:hover{
+        text-decoration: underline;
+    }
+    /*---------------Catalogo----------------*/
+
+    .img-servicios6{
+        width: 400px;
+        height: 200px;
+        border-radius: 0%;
+        float: left;
+    }
+    .img-servicios5{
+        width: 400px;
+        height: 200px;
+        border-radius: 0%;
+        float: right;
+    }
+    .img-servicios4{
+        width: 400px;
+        height: 200px;
+        border-radius: 0%;
+        float: right;
+    }
+    .img-servicios3{
+        width: 400px;
+    height: 200px;
+    border-radius: 0%;
+    float: left;
+     }
+    
+    .img-servicios2{
+        width: 400px;
+    height: 200px;
+    border-radius: 0%;
+    float: left;
+
+    }
+    .img-servicios1{
+        width: 420px;
+    height: 218px;
+    border-radius: 1%;
+    float: right;
+
+    }
+    #contenidooo #centro3{
+        width: 800px;
+        margin: auto; 
+        border: 0px solid; 
+        height: auto; 
+        overflow: hidden;
+        text-align: center;
+        font-family: "Ariel";
+        background: rgb(250, 248, 248) ;
+    }
+    #contenidoo #centro4{
+ 
+        height: auto; 
+        background: rgb(250, 248, 248) ;
+        height: auto;
+        font-family: "Ariel";
+        
+    }
+
+    .descripcion12{
+        color: #000000;
+    }
+
+    .descripcion123{
+        color: #000000;
+    }
+
+    #contenido15 #centro15{
+        color: #0489b1;
+        font-family: "Arial black";
+    }
+
+    .centro15{
+        font-family: "Arial black";
+    font-size: 50px; 
+    }
+
+     /*-----------------Contacto--------------*/
+   
+.mapa{
+    padding: 15px;
+    background: #918d8d ;
+    text-align: center;
+}
+
+.mapa h3{
+    font-size: 25px;
+}
+
+.mapa p{
+    text-align: center ;
+}
+
+    /*------------------Entregas--------------*/
+    .img-entrega{
+
+        width: 350px;
+        height: 250px;
+        border-radius: 5%;
+        float: left;
+     }
+     .img-entrega1{
+        width: 350px;
+        height: 250px;
+        border-radius: 5%;
+        float: right;
+    
+     }
+     .img-entrega2{
+        width: 350px;
+        height: 250px;
+        border-radius: 5%;
+        float: left;
+     }
+    .img-entrega3{
+        width: 350px;
+        height: 250px;
+        border-radius: 5%;
+        float: right;
+    }
+    .img-entrega4{
+        width: 350px;
+        height: 250px;
+        border-radius: 5%;
+        float: left;
+    }
+    .img-entrega5{
+        width: 350px;
+        height: 250px;
+        border-radius: 5%;
+        float: right;
+    }
+
+    .img-entrega6{
+        width: 350px;
+        height: 400px;
+        border-radius: 5%;
+        float: left;
+    }
+
+    .img-entrega7{
+        width: 350px;
+        height: 400px;
+        border-radius: 5%;
+        float: right;
+    }  
+    .img-entrega8{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: left;
+    }
+    .img-entrega9{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: right;
+    }
+    .img-entrega10{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: left;
+    }
+    .img-entrega11{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: right;
+    }
+    .img-entrega12{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: left;
+    }
+   
+    .img-entrega14{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: right;
+    }
+    .img-entrega15{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: right;
+    }
+    .img-entrega16{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: left;
+    }
+    .img-entrega17{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: right;
+    }
+    .img-entrega18{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: left;
+    }
+    .img-entrega19{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: right;
+    }
+    .img-entrega20{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: left;
+    }
+    .img-entrega21{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: right;
+    }
+    .img-entrega22{
+        width: 350px;
+        height: 300px;
+        border-radius: 5%;
+        float: left;
+    }
+
+    /*..................LEER MAS...............*/
+
+    .img-aveo1{
+        width: 450px;
+        height: 190px;
+        border-radius: 9%;
+        float: centro;
+        
+    }
+    
+    .img-aveo2{
+        width: 400px;
+        height: 180px;
+        border-radius: 9%;
+        float: left;
+    }
+
+    .img-aveo3{
+        width: 400px;
+        height: 250px;
+        border-radius: 9%;
+        float: right;
+    }
+
+    .img-aveo4{
+        width: 350px;
+        height: 250px;
+        border-radius: 9%;
+        float: left;
+
+    }
+
+    .img-aveo5{
+        width: 390px;
+        height: 240px;
+        border-radius: 9%;
+        float: right;
+    }
+
+    .img-aveo6{
+        width: 350px;
+        height: 270px;
+        border-radius: 9%;
+        float: left;
+
+    }
+
+    .img-aveo7{
+        width: 430px;
+        height: 230px;
+        border-radius: 9%;
+        float: right;
+
+    }
+
+    .img-aveo8{
+        width: 700px;
+        height: 300px;
+        border-radius: 9%;
+        float: centro;
+    }
+
+    /*.............LEER MAS SAIL.................*/
+    .img-sail1{
+        width: 350px;
+        height: 250px;
+        border-radius: 9%;
+    }
+
+    .img-sail2{
+        width: 350px;
+        height: 250px;
+        border-radius: 9%;
+    }
+
+    .img-sail3{
+        width: 350px;
+        height: 250px;
+        border-radius: 9%;
+    }
+
+
+    .img-sail4{
+        width: 350px;
+        height: 250px;
+        border-radius: 9%;
+    }
+
+    /*.........................lmas principal...............*/
+    
+    .img-jefes{
+        width: 350px;
+        height: 400px;
+        border-radius: 5%;
+    }
+    
+    /*.........................resolucion..................*/
+
+    .resolucion {
+        width: 99%;
+         text-align: center;
+    }
+    /*........movil.....*/
+    @media (max-width: 767px){
+        .desktop{
+            display: none;
+        }
+        .tablet{
+            display: none;
+        }
+
+    }
+    /*........tablet.....*/
+    @media (min-width: 768px) and (max-width: 990px){
+        .desktop{
+            display: none;
+       }
+        .movil{
+            display: none;
+        }
+    }
+
+    /*........escritorio.....*/
+    @media (min-width: 991px){
+        .tablet{
+            display: none;
+        }
+        .movil{
+            display: none;
+            
+        }
+    }
